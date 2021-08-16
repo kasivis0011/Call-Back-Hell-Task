@@ -1,0 +1,15 @@
+body {
+  background-color: lightblue;
+}
+
+#demo {
+  font-size: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+#imgcontainer {
+  justify-content: center;
+  text-align: center;
+  visibility: hidden;
+}
