@@ -1,24 +1,24 @@
-setTimeout(function timer10() {
+setTimeout(function () {
   document.getElementById("demo").innerHTML = "10";
-  setTimeout(function timer9() {
+  setTimeout(function () {
     document.getElementById("demo").innerHTML = "9";
-    setTimeout(function timer8() {
+    setTimeout(function () {
       document.getElementById("demo").innerHTML = "8";
-      setTimeout(function timer7() {
+      setTimeout(function () {
         document.getElementById("demo").innerHTML = "7";
-        setTimeout(function timer6() {
+        setTimeout(function () {
           document.getElementById("demo").innerHTML = "6";
-          setTimeout(function timer5() {
+          setTimeout(function () {
             document.getElementById("demo").innerHTML = "5";
-            setTimeout(function timer4() {
+            setTimeout(function () {
               document.getElementById("demo").innerHTML = "4";
-              setTimeout(function timer3() {
+              setTimeout(function () {
                 document.getElementById("demo").innerHTML = "3";
-                setTimeout(function timer2() {
+                setTimeout(function () {
                   document.getElementById("demo").innerHTML = "2";
-                  setTimeout(function timer1() {
+                  setTimeout(function () {
                     document.getElementById("demo").innerHTML = "1";
-                    setTimeout(function timer1() {
+                    setTimeout(function () {
                       document.getElementById("demo").innerHTML =
                         "Happy Independence Day";
                       document.getElementById("imgcontainer").style.visibility =
